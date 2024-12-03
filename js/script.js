@@ -14,4 +14,13 @@ window.onload = () => {
 	// Append the red text paragraph to parent container
 	parentDIV.appendChild(redParagraph); // SUCCESS
 
+	/**
+	 * Exercise 2: an <h3> with blue text that says "I'm a blue h3!"
+	 */
+	const blueH3 = document.createElement('h3');
+	blueH3.style.color = 'blue';
+	blueH3.textContent = 'I\'m a blue H3!';
+
+	parentDIV.appendChild(blueH3);
+
 };
